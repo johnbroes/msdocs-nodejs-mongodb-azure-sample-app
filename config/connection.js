@@ -20,7 +20,7 @@ async function putKeyVaultSecretInEnvVar() {
 async function getConnectionInfo() {
   if (!process.env.DATABASE_URL) {
 
-    //JYK-9/18/22-comment out keyvault logic for now so I can test it out
+    //JYK-9/18/22-comment out keyvault logic for now so I can test it out 
     //await putKeyVaultSecretInEnvVar();
 
     // still don't have a database url?
